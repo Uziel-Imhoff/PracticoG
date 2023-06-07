@@ -1,0 +1,67 @@
+Órdenes Básicas
+git init Iniciar un repositorio vacío en unas carpeta específica
+git clone [url] [dir] Obtenemos un repositorio
+git status Revisamos el estado de los archivos
+git add ‘nombre_de_archivo’ Añadir un archivo específico al área
+de preparación
+git add . Añadir todos los archivos del directorio
+git commit –m “mensaje” Confirmar los cambios realizados
+git log Muestra el historial de confirmaciones
+git diff Muestra los cambios con respecto a la última versión
+guardada en el repositorio
+
+Comandos
+► Ver repositorios remotos configurados
+► git remote
+► Añadir repositorio remoto
+► git remote add [nombre] [url]
+► Remover repositorio remoto
+► git remote rm [nombre]
+► Ver ramas existentes en el repositorio
+► git branch
+► Subir confirmaciones a repositorio remoto
+► git push [nombre-remoto] [rama]
+► Actualizar de repositorio remoto
+► git pull [nombre-remoto] [rama]
+
+ Resumen
+► git branch: lista las ramas locales
+► git branch <rama>: crea una nueva rama
+► git checkout <rama>: cambia el puntero
+HEAD a <rama>
+► git branch -d <rama>: borra la rama
+► git merge <rama>: fusiona el contenido de
+<rama> en la rama en la que estamos
+parados
+
+Resumen
+► git commit --amend -m <mensaje>: sobreescribe el
+último commit realizado.
+► git commit --amend --no-edit: permite hacer
+correcciones sin cambiar el mensaje
+► git checkout -- <archivo>: deshace los cambios
+realizados sobre un archivo.
+► git reset: permite volver a versiones anteriores
+► git revert <hash>: revierte el estado sin perder el
+historial de cambios
+► git stash: descarta los cambios, pero guarda una
+copia de los archivos modificados
+► git stash pop stash@{N}: elige el stash de la lista
+
+Para qué sirve un diagram de draw.io
+en una Trello Card?
+● Desarrollo de Software: documentar procesos, flujos de
+datos, interacciones del usuario, estructuras de datos,
+maquetas y más, directamente en las tarjetas de tareas.
+● RRHH: Crear un Tablero en Trello de incorporación y
+proporcionar diagramas de flujo para procesos de
+trabajo importantes y organigramas que permitan ayudar
+a los nuevos empleados a ponerse al día rápidamente.
+● Servicios de IT: mantener un Tablero que documente los
+sistemas importantes con diagramas de rack, diagramas
+de arquitectura de red y más.
+● Marketing: Crear infografía y asociarlas a tareas.
+● Consultorías: facilitar a los clientes la visualización de
+los servicios que se ofrecen: utilizar diagramas de flujo y
+diagramas explicativos en un Tablero de Trello que
+puede compartirse con los clientes.
